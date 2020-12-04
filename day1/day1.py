@@ -19,6 +19,7 @@ def rec_operands(numOperands, list, target):
                 total = op * int(list[i])
                 return total
 
-print("Two")
+print("Two Operands")
 print(rec_operands(2, build_list(), 2020))
+print("Three Operands")
 print(rec_operands(3, build_list(), 2020))
